@@ -2,6 +2,8 @@
 
 A scalable Image Recognition Service built with Go and Python. This project integrates a pre-trained MobileNetV2 model for high-accuracy object detection and classification. It provides a RESTful API for uploading images and receiving recognition results, with Docker for seamless deployment.
 
+This project is yet incomplete and under development
+
 ## Features
 
 - **Image Upload**: Handle file uploads via a RESTful API.
@@ -34,10 +36,8 @@ image-recognition-service/
 │   ├── model.py
 │   └── requirements.txt
 ├── utils/
-│   └── utils.go
-└── tests/
-    ├── handlers_test.go
-    └── utils_test.go
+    └── utils.go
+
 ```
 
 ## Setup and Installation
